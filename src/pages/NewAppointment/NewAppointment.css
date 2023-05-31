@@ -1,0 +1,28 @@
+.appointmentDesign{
+    width: 100vw;
+    background-color: rgb(59, 143, 227);
+    height: 88vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+ /* /* .appointment{
+    width: 13vw ;
+    justify-content: center;
+    align-items: center;
+     background-color: rgb(192, 185, 185); 
+    margin: 2em;
+} */
+/* .Style{
+    
+    display: flex;
+    width: 18vw ;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(192, 185, 185);
+    margin: 2em;
+    border-radius: 5%;
+}  */
+

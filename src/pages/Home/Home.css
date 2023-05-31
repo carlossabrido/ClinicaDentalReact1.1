@@ -1,0 +1,120 @@
+.homeDesign {
+    width: 100vw;
+    height: fit-content;
+    background-color:rgb(59, 143, 227);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .centerr{
+    width:30em;
+    height: 20em;
+    transition: ease-out 1s;
+    border-radius: 3%;
+    font-family: 'Anton', sans-serif;
+}
+.centerr:hover {
+    transform: scale(1.1);
+    transition: ease-in-out 1s;
+  }
+
+.fix{
+    margin-top: 12em;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-family: 'Anton', sans-serif;
+    
+}
+
+.contact{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.717);
+    height: 10em;
+    margin-top: 5em;
+    border-radius:1%;
+    transition: ease-out 1s;
+    font-family: 'Anton', sans-serif;
+}
+
+.contact:hover{
+    transform: scale(1.05);
+    transition: ease-in-out 1s;
+    /* background-color: rgb(54, 86, 174);
+    color: azure; */
+
+}
+
+/* Estilos para pantallas de hasta 576px de ancho */
+@media (max-width: 576px) {
+    .homeDesign {
+      padding: 10px;
+    }
+    .centerr{
+    width:15em;
+    height: 10em;
+
+    }
+  
+    .column {
+      text-align: center;
+    }
+  
+    .contact {
+      text-align: center;
+      font-size: 18px;
+      margin-top: 2em;
+    }
+  }
+  
+  /* Estilos para pantallas de 577px a 768px de ancho */
+  @media (min-width: 577px) and (max-width: 768px) {
+    .homeDesign {
+      padding: 20px;
+    }
+    .centerr{
+        width:20em;
+        height: 15em;
+    
+        }
+  
+    .column {
+      text-align: center;
+      margin-top: 20px;
+    }
+  
+    .contact {
+      text-align: center;
+      font-size: 22px;
+      margin-top: 2em;
+    }
+  }
+  
+  /* Estilos para pantallas de 769px a 992px de ancho */
+  @media (min-width: 769px) and (max-width: 992px) {
+    .homeDesign {
+      padding: 30px;
+    }
+
+    .centerr{
+        width:25em;
+        height: 18em;
+    
+        }
+  
+    .column {
+      text-align: center;
+      margin-top: 30px;
+    }
+  
+    .contact {
+      text-align: center;
+      font-size: 26px;
+      margin-top: 2em;
+    }
+  }
+  

@@ -1,0 +1,30 @@
+.headerDesing{
+    width: 100vw;
+    height: 10vh;
+    background-color: rgb(74, 150, 236);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+
+.link{
+    color: white;
+    display: flex;
+    margin: 1em;
+    flex-direction: column;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.pic{
+    width: 3em;
+    height: 3em;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.name{
+    font-weight: bold;
+    color: aqua;
+}

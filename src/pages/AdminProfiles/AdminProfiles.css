@@ -1,0 +1,31 @@
+.adminDesing{
+    min-height: 87vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(59, 143, 227);
+    
+}
+
+.center{
+    width: 80%;
+    
+    /* display: flex;
+    justify-content: center; */
+}
+.buttonDesign{
+    margin-top: 1em;
+    background-color: rgb(59, 143, 227);
+    
+}
+.buttonDesign:hover{
+    
+    background-color: rgb(240, 245, 249);
+    
+}
+
+.topCol{
+    background-color: rgb(59, 143, 227) ;
+
+}
