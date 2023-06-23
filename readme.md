@@ -6,7 +6,7 @@ Project focused in create a Denatal Clinic Website with React  implementing all 
 
 I leave here the administrator user to have access to everything
 
-https://carlossabrido.github.io/ClinicaDental/
+
 
 yamal@gmail.com
 
