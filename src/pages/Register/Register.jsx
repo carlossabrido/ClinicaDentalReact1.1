@@ -55,7 +55,7 @@ export const Register = () => {
       <Form.Group className="mb-3" >
         <Form.Check type="checkbox" label="Check me out" />
       </Form.Group>
-      <Button variant="primary" type="submit" onClick={registerMeFunction}>
+      <Button variant="primary" type="submit" onClick={()=>registerMeFunction}>
         Submit
       </Button>
     </Form>

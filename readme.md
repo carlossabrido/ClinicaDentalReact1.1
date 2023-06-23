@@ -49,7 +49,7 @@ Rigth after get registered the website take you to the login page.
 
  <img src="media/foto9.png" alt="JavaScript" >
 
- and algo visualize all the profiles 
+ and also visualize all the profiles 
 
  <img src="media/foto10.png" alt="JavaScript" >
 
@@ -67,6 +67,6 @@ Rigth after get registered the website take you to the login page.
 
 # Inquires 
 
-Proyect developed in a team if you got any inquires get in touch by Linkedn with any of us:
+If you got any inquires get in touch by Linkedn with :
 
 <a href="https://www.linkedin.com/in/carlos-sabrido-medina-624b77258/"> Carlos' linkedin </a>

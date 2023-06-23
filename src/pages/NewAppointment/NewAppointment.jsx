@@ -115,9 +115,7 @@ export const NewAppointment = () => {
               <Form.Label></Form.Label>
               <Form.Control type="datetime-local" placeholder="Fecha y hora de fin" name='end_date' onChange={(e) => HandlerFunctionAppointment(e, '', 'end_date')} />
             </Form.Group>
-            <Form.Group className="mb-3">
-              <Form.Check type="checkbox" label="Check me out" />
-            </Form.Group>
+          
             <Button variant="primary" type="submit" onClick={(e) => { createAppointmentFunction(e); navigate("/appointment") }}>
               Submit
             </Button>
